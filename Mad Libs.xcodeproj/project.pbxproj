@@ -416,6 +416,7 @@
 				EB4B32FF1B24C5B1001DD5E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB4B33001B24C5B1001DD5E5 /* Build configuration list for PBXNativeTarget "Mad LibsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				EB4B33021B24C5B1001DD5E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
