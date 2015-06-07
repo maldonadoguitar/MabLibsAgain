@@ -16,6 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1vv-WH-46T">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <string key="image">687474703a2f2f6d6164656972612e686363616e65742e6f72672f70726f6a656374322f6d696368656c735f70322f77656273697465253230706963732f62656e6465722e6a7067</string>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="5" width="400" height="595"/>
+                                </variation>
+                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="noun" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gdK-Ca-z63">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -128,6 +135,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="1vv-WH-46T"/>
                                 <exclude reference="gdK-Ca-z63"/>
                                 <exclude reference="aGv-vM-KMe"/>
                                 <exclude reference="MqO-io-TXm"/>
@@ -145,6 +153,7 @@
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
+                                <include reference="1vv-WH-46T"/>
                                 <include reference="gdK-Ca-z63"/>
                                 <include reference="aGv-vM-KMe"/>
                                 <include reference="MqO-io-TXm"/>
@@ -181,4 +190,9 @@
             <point key="canvasLocation" x="139.5" y="389"/>
         </scene>
     </scenes>
+    <resources>
+        <image width="392" height="406">
+            <string key="name">687474703a2f2f6d6164656972612e686363616e65742e6f72672f70726f6a656374322f6d696368656c735f70322f77656273697465253230706963732f62656e6465722e6a7067</string>
+        </image>
+    </resources>
 </document>
